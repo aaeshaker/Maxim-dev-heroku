@@ -1,0 +1,31 @@
+// Colors
+$c1: #ffffff;
+$c2: #b38958;
+$c3: #062942;
+
+@mixin bgCenter {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin vlCenter {
+  display: flex;
+  align-items: center;
+}
+
+@mixin hlCenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin fullScreen {
+  width: 100%;
+  height: 100%;
+}

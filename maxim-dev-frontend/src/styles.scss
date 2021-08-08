@@ -1,0 +1,258 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+
+
+// Font Sizes
+h1 {
+  font-size: 65px; // 65px
+}
+
+h2 {
+  font-size: 4.026vw; // 55px
+}
+
+h3 {
+  font-size: 3.294vw; // 45px
+}
+
+h4 {
+  font-size: 2.562225475841874vw; // 35px
+}
+
+h5 {
+  font-size: 1.4641288433382138vw; // 20px
+}
+
+h6 {
+  font-size: 1.098vw; // 15px
+}
+
+p {
+  font-size: 11px;
+}
+
+//  Html Tags
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+// Global Classes
+
+.container-fluid {
+  padding-right: 5.729vw;
+  padding-left: 5.729vw;
+}
+
+.padding-y {
+  padding-top: 3.610966057441253vw;
+  padding-bottom: 3.610966057441253vw;
+}
+
+.img-container {
+  @include bgCenter;
+  width: 100%;
+}
+
+.swiper-container {
+  @include fullScreen;
+}
+
+.swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+  background-color: $c1;
+  border: 2px solid #707070;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $c2;
+  border: none;
+}
+
+.my-primary-btn {
+  background-color: $c1;
+  font-family: kefa;
+  color: $c3;
+  padding: .8vw 3vw;
+  border: none;
+  transition: all .5s;
+  font-size: 1.098vw;
+
+
+  &:hover {
+    color: $c1;
+    background-color: $c3;
+  }
+}
+
+// Video Thumbnail Overlay
+.thumbnailOverlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include fullScreen;
+}
+
+/*---- Scroll bar "start"----*/
+::-webkit-scrollbar {
+  width: 0.3703703703703704vw; // 5px
+}
+
+::-webkit-scrollbar-thumb {
+  background: $c3;
+}
+
+::-webkit-scrollbar-track {
+  background: $c1;
+}
+
+/*--x-- Scroll bar "end"--x--*/
+
+
+
+/*------------------- Fonts ---------------*/
+
+// Palatino regular
+@font-face {
+  font-family: pal_r;
+  font-display: auto;
+  src: url(assets/fonts/Palatino_regular.ttf) format("truetype");
+}
+
+// Palatino bold
+@font-face {
+  font-family: pal_b;
+  font-display: auto;
+  src: url(assets/fonts/Palatino_bold.ttf) format("truetype");
+}
+
+// Kefa
+@font-face {
+  font-family: kefa;
+  font-display: auto;
+  src: url(assets/fonts/Kefa.ttc) format("truetype");
+}
+
+
+// Responsive
+
+@media only screen and (max-width: 1024px) {
+
+  h1 {
+    font-size: 9.765625vw; // 75px
+  }
+
+  h2 {
+    font-size: 6.510416666666667vw; // 50px
+  }
+
+  h3 {
+    font-size: 5.208333333333334vw; // 40px
+  }
+
+  h4 {
+    font-size: 4.427083333333334vw; // 34px
+  }
+
+  h5 {
+    font-size: 2.734375vw; // 21px
+  }
+
+  h6 {
+    font-size: 2.473958333333333vw; // 19px
+  }
+
+  p {
+    font-size: 1.953125vw; // 15px
+  }
+
+  .my-primary-btn {
+    padding: 2vw 6vw;
+    font-size: 3.2552083333333335vw; // 25px
+  }
+
+  .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+    border: 2.5px solid #707070;
+  }
+
+  .swiper-pagination-bullet-active {
+    border: none;
+  }
+
+  .form-control {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  h1 {
+    font-size: 13.866666666666665vw; // 52px
+  }
+
+  h2 {
+    font-size: 10.666666666666668vw; // 40px
+  }
+
+  h3 {
+    font-size: 8vw; // 30px
+  }
+
+  h4 {
+    font-size: 7.199999999999999vw; // 27px
+  }
+
+  h5 {
+    font-size: 4.8vw; // 18px
+  }
+
+  h6 {
+    font-size: 4vw; // 15px
+  }
+
+  p {
+    font-size: 2.933333333333333vw; // 11px
+  }
+
+  .my-primary-btn {
+    padding: 2vw 9vw;
+    font-size: 4.8vw; //18px
+  }
+
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    border: 3px solid #707070;
+  }
+
+  .swiper-pagination-bullet-active {
+    border: none;
+  }
+
+}

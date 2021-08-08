@@ -1,0 +1,180 @@
+@import '../../../../variables';
+
+footer {
+  padding: 2vw 0;
+
+  .logo {
+    height: 100%;
+    @include flexCenter;
+
+    img {
+      width: 8vw;
+    }
+  }
+
+  h5 {
+    color: $c2;
+    padding-bottom: .5vw;
+  }
+
+  h5,
+  a {
+    text-transform: capitalize;
+    font-family: kefa;
+  }
+
+  li {
+    padding: .3vw 0;
+
+    a {
+      color: $c3;
+      font-size: 1vw;
+
+      img {
+        width: 1.4vw;
+        padding-right: .5vw;
+      }
+    }
+  }
+
+  .inclined-text {
+    position: absolute;
+    left: -1.903367496339678vw; // -26px
+    writing-mode: vertical-rl;
+    top: 22%;
+    transform: translate3d(0, -10%, 0) rotateX(180deg) rotateY(180deg);
+  }
+
+  .lower-list {
+    padding-top: 1.5vw;
+  }
+
+  .social-media {
+    li {
+      padding-right: 1vw;
+
+      img {
+        width: 2vw;
+      }
+    }
+  }
+
+}
+
+// Responsive
+
+@media only screen and (max-width: 1024px) {
+
+  footer {
+    padding: 4vw 0;
+
+    .logo {
+
+      img {
+        width: 16vw;
+      }
+    }
+
+    .column {
+      margin-bottom: 4vw;
+    }
+
+    .dev-lists {
+      @include vlCenter;
+      flex-direction: column;
+
+      .upper-list {
+        margin-left: -13vw;
+      }
+
+    }
+
+    li {
+      padding: .5vw 0;
+
+      a {
+        font-size: 2.3vw;
+
+        img {
+          width: 2.5vw;
+          padding-right: .8vw;
+        }
+      }
+    }
+
+    .inclined-text {
+      left: 5.096633vw;
+    }
+
+    .lower-list {
+      padding-top: 2.5vw;
+    }
+
+    .social-media {
+      li {
+        padding-right: 1.8vw;
+
+        img {
+          width: 3.5vw;
+        }
+      }
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  footer {
+    padding: 8vw 0;
+
+    .logo {
+
+      img {
+        width: 25vw;
+      }
+    }
+
+    .column {
+      margin-bottom: 6vw;
+    }
+
+    .dev-lists {
+      @include vlCenter;
+      flex-direction: column;
+      margin-left: 10vw;
+    }
+
+    li {
+
+      a {
+        font-size: 3.8vw;
+
+        img {
+          width: 4vw;
+        }
+      }
+    }
+
+    // .inclined-text {
+    //   left: 5.096633vw;
+    // }
+
+    // .lower-list {
+    //   padding-top: 2.5vw;
+    // }
+
+    .social-media {
+      li {
+        padding-right: 2.5vw;
+
+        img {
+          width: 5.7vw;
+        }
+      }
+    }
+
+  }
+
+}

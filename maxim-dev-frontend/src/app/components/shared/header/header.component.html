@@ -1,0 +1,186 @@
+<nav class="Nav d-flex align-items-center">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+
+    <div class="logo">
+      <a [routerLink]="['/']">
+        <img src="../../../../assets/imgs/icons/maxim-logo.svg" alt="maxim-logo">
+      </a>
+    </div>
+
+    <div class="menu">
+      <a id="open" class="open" (click)='openNav()'>
+        <img src="../../../../assets/imgs/icons/sandwitch-sign.svg" alt="menu-logo">
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<div class="nav img-container" id="nav" style="background-image: url(../../../../assets/imgs/menu/menu.jpg);">
+
+  <div class="container-fluid padding-y">
+
+    <div class="menu-logo d-flex justify-content-between">
+      <div class="logo">
+        <a [routerLink]="['/']">
+          <img src="../../../../assets/imgs/icons/maxim-logo.svg" alt="maxim-logo">
+        </a>
+      </div>
+
+      <a id="close" class="close" (click)='closeNav()'>
+        <img src="../../../../assets/imgs/menu/close.svg" alt="close botton">
+      </a>
+    </div>
+
+    <div>
+
+
+      <ul class="routes">
+        <li><a [routerLink]="['/']" (click)='closeNav()'>home</a></li>
+        <li><a (click)='closeNav()'>who we are</a></li>
+        <li><a (click)='closeNav()'>our developments & projects</a></li>
+        <li><a (click)='closeNav()'>resale</a></li>
+        <li><a (click)='closeNav()'>media hub</a></li>
+        <li><a (click)='closeNav()'>conatct us</a></li>
+      </ul>
+
+
+      <ul class="social-media">
+        <li>
+          <a>
+            <svg xmlns="http://www.w3.org/2000/svg" id="fb" width="18" height="23" viewBox="0 0 14.439 27.841">
+              <defs>
+                <clipPath id="clip-path">
+                  <path id="Rectangle_7" d="M0 0H14.439V27.841H0z" class="cls-1" />
+                </clipPath>
+                <style>
+                  .cls-1 {
+                    fill: #fff
+                  }
+
+                </style>
+              </defs>
+              <g id="Group_4">
+                <g id="Group_3" clip-path="url(#clip-path)">
+                  <path id="Path_47"
+                    d="M446.618 846.541h-2.627c-2.058 0-2.458.979-2.458 2.416v3.165h4.911v4.961h-4.91v12.727h-5.122v-12.726h-4.282v-4.961h4.282v-3.657c0-4.244 2.592-6.556 6.38-6.556l3.827.006zm0 0"
+                    class="cls-1" transform="translate(-432.129 -841.976)" />
+                </g>
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0"
+              viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+              <g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752   c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407   c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752   c17.455,0,31.656,14.201,31.656,31.655V122.407z"
+                    fill="#ffffff" data-original="#000000" />
+                  <path
+                    d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561   C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561   c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z"
+                    fill="#ffffff" data-original="#000000" />
+                  <path
+                    d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78   c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78   C135.661,29.421,132.821,28.251,129.921,28.251z"
+                    fill="#ffffff" data-original="#000000" />
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a>
+            <svg xmlns="http://www.w3.org/2000/svg" id="linkedin" width="22" height="22" viewBox="0 0 28.555 28.506">
+              <defs>
+                <style>
+                  .cls-1 {
+                    fill: #fff
+                  }
+
+                </style>
+              </defs>
+              <path id="Path_48" d="M496.4 844.589a3.431 3.431 0 1 0 3.43 3.429 3.431 3.431 0 0 0-3.43-3.429zm0 0"
+                class="cls-1" transform="translate(-492.969 -844.589)" />
+              <path id="Rectangle_8" d="M0 0H5.918V19.041H0z" class="cls-1" transform="translate(0.472 9.464)" />
+              <path id="Path_49"
+                d="M530.66 868.03a6.222 6.222 0 0 0-5.6 3.076h-.078v-2.6H519.3v19.041h5.914v-9.419c0-2.484.472-4.889 3.551-4.889 3.036 0 3.076 2.841 3.076 5.048v9.26h5.914V877.1c0-5.127-1.107-9.071-7.1-9.071zm0 0"
+                class="cls-1" transform="translate(-509.204 -859.039)" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 35.829 25.08">
+              <path fill="#fff"
+                d="M35.036 7.084l.045.289a4.514 4.514 0 0 0-3.087-3.116l-.031-.007c-2.794-.75-14.034-.75-14.034-.75S6.718 3.485 3.9 4.249A4.517 4.517 0 0 0 .787 7.342l-.007.031A48.783 48.783 0 0 0 .826 25l-.046-.292a4.514 4.514 0 0 0 3.087 3.116l.031.007c2.79.751 14.033.751 14.033.751s11.21 0 14.033-.751a4.516 4.516 0 0 0 3.111-3.092l.007-.031a45.6 45.6 0 0 0 .746-8.333v-.326-.339a47.044 47.044 0 0 0-.793-8.625zM14.343 21.426V10.667l9.357 5.388z"
+                transform="translate(0 -3.5)" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="contact-links">
+        <li>
+          <a>
+            <img src="../../../../assets/imgs/menu/location.svg" alt="location pin">
+            <h6>Al-Multaqa Al-Arabi Al-Nasr Road<br>Heliopolis, Cairo</h6>
+          </a>
+          <div class="navigate">
+            <h5>Navigate</h5>
+            <img src="../../../../assets/imgs/menu/compass.svg" alt="location compass">
+          </div>
+        </li>
+        <li>
+          <a>
+            <img src="../../../../assets/imgs/menu/mail.svg" alt="mail">
+            <h6>info@maximig.com</h6>
+          </a>
+        </li>
+        <li>
+          <a>
+            <img src="../../../../assets/imgs/menu/telephone.svg" alt="telephone">
+            <div class="d-block">
+              <h6>19249</h6>
+              <h6>02 20652000</h6>
+            </div>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+
+  </div>

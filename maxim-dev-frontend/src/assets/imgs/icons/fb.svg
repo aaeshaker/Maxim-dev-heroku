@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="fb" width="14.439" height="27.841" viewBox="0 0 14.439 27.841">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Rectangle_7" d="M0 0H14.439V27.841H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_4">
+        <g id="Group_3" clip-path="url(#clip-path)">
+            <path id="Path_47" d="M446.618 846.541h-2.627c-2.058 0-2.458.979-2.458 2.416v3.165h4.911v4.961h-4.91v12.727h-5.122v-12.726h-4.282v-4.961h4.282v-3.657c0-4.244 2.592-6.556 6.38-6.556l3.827.006zm0 0" class="cls-1" transform="translate(-432.129 -841.976)"/>
+        </g>
+    </g>
+</svg>
